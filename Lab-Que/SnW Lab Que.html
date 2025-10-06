@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Que1{
+            ul {
+                list-style-type: square;
+                font-style: italic;
+                color: green;
+            }
+        }
+        .Que2{
+            table {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px solid black;
+
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+        }
+        .Que3{
+            ol {
+                list-style-type: upper-roman;
+                font-style: oblique;
+                font-weight: bold;
+            }
+            ul > li {
+                background-color: lightyellow;
+            }
+        }
+        .Que4{
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th {
+                background-color: #4CAF50;
+                color: white;
+            }
+            td {
+                text-align: center;
+            }
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="Que1">
+        <h1>My Grocery List</h1>
+        <ul>
+            <li>Apples</li>
+            <li>Milk</li>
+            <li>Bread</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="Que2">
+        <h1>User Information</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tanmay</td>
+                    <td>Kumar</td>
+                </tr>
+                <tr>
+                    <td>Priya</td>
+                    <td>Sharma</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div class="Que3">
+        <h1>Project To-Do List</h1>
+        <ol>
+            <li>Phase I</li>
+                <ul>
+                    <li>Design Mockups</li>
+                    <li>Create User Stories</li>
+                </ul>
+            <li>Phase II</li>
+        </ol>
+    </div>
+    <hr>
+    <div class="Que4">
+        <h1>Weekly Class Schedule</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9:00 AM - 10:00 AM</td>
+                    <td>Math</td>
+                    <td>History</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM - 11:00 AM</td>
+                    <td>Science</td>
+                    <td>English</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
